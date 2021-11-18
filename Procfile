@@ -1,1 +1,1 @@
-web: uvicorn auth.main:app
+web: uvicorn auth.main:app --host 0.0.0.0
